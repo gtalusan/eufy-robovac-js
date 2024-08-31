@@ -1,12 +1,13 @@
 {
   "name": "@george.talusan/eufy-robovac-js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "main": "./lib/RoboVac.js",
   "dependencies": {
     "debug": "^4.3.5",
     "net-ping": "^1.2.4",
