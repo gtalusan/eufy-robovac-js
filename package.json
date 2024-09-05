@@ -4,6 +4,7 @@
   "main": "./lib/RoboVac.js",
   "scripts": {
     "lint": "eslint lib",
+    "prepack": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
