@@ -1,6 +1,6 @@
 {
   "name": "@george.talusan/eufy-robovac-js",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,6 @@
   "main": "./lib/RoboVac.js",
   "dependencies": {
     "debug": "^4.3.5",
-    "net-ping": "^1.2.4",
     "tuyapi": "github:codetheweb/tuyapi"
   },
   "directories": {
