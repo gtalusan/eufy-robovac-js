@@ -1,6 +1,6 @@
 {
   "name": "@george.talusan/eufy-robovac-js",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "main": "./lib/RoboVac.js",
   "scripts": {
     "lint": "eslint lib",
@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "debug": "^4.3.5",
-    "tuyapi": "github:codetheweb/tuyapi"
+    "tuyapi": "^7.7.1"
   },
   "directories": {
     "lib": "lib"
