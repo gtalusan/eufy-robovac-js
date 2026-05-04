@@ -1,11 +1,17 @@
 {
   "name": "@george.talusan/eufy-robovac-js",
   "version": "0.0.13",
-  "main": "./lib/RoboVac.js",
+  "type": "module",
+  "exports": {
+    ".": "./lib/RoboVac.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "lint": "eslint lib",
     "prepack": "npm run lint",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test lib/*.test.js"
   },
   "author": "",
   "license": "ISC",
