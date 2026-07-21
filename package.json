@@ -1,6 +1,6 @@
 {
   "name": "@george.talusan/eufy-robovac-js",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "type": "module",
   "exports": {
     ".": "./lib/RoboVac.js"
