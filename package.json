@@ -5,6 +5,10 @@
   "exports": {
     ".": "./lib/RoboVac.js"
   },
+  "files": [
+    "lib",
+    "README.md"
+  ],
   "engines": {
     "node": ">=22"
   },
