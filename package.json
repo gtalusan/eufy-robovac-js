@@ -13,9 +13,10 @@
     "node": ">=22"
   },
   "scripts": {
+    "build": "npm pack --dry-run",
     "lint": "eslint lib",
     "prepack": "npm run lint",
-    "test": "node --test lib/*.test.js"
+    "test": "node --test --experimental-test-coverage --test-coverage-lines=75 --test-coverage-branches=75 --test-coverage-functions=75 lib/*.test.js"
   },
   "author": "",
   "license": "ISC",
